@@ -82,3 +82,17 @@ A `README.md` file must be included, providing clarity on the modeling approach 
 
 1.  **Assumptions:** Clearly stated the definition used for **Power User** and the assumption used for the **User-to-Firm Mapping** (`provisioned_users`).
 2.  **Model Interpretation:** Provided a brief explanation of the goal and key metrics (e.g., grain) for all three final models.
+
+
+## Requirements based on the data modeling and visualization steps in the IPYNB file.
+
+# Core Data Manipulation
+pandas==2.1.4
+
+# Numerical Operations (often used implicitly by pandas)
+numpy==1.26.2
+
+# Visualization Libraries (Used for Histograms, Boxplots, and Stacked Charts)
+matplotlib==3.8.2
+seaborn==0.13.0
+altair==5.2.0
