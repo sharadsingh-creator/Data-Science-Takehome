@@ -88,10 +88,6 @@ A `README.md` file must be included, providing clarity on the modeling approach 
 
 # Core Data Manipulation
 pandas==2.1.4
-
-# Numerical Operations (often used implicitly by pandas)
-numpy==1.26.2
-
 # Visualization Libraries (Used for Histograms, Boxplots, and Stacked Charts)
 matplotlib==3.8.2
 seaborn==0.13.0
