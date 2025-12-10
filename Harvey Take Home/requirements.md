@@ -95,4 +95,3 @@ numpy==1.26.2
 # Visualization Libraries (Used for Histograms, Boxplots, and Stacked Charts)
 matplotlib==3.8.2
 seaborn==0.13.0
-altair==5.2.0
