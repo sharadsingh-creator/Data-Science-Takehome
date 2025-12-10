@@ -70,9 +70,9 @@ The following questions must be answered using the modeled data, with justificat
 
 * **Requirement:** Identify and document at least two significant data quality or definition concerns.
 * **Required Concerns (Derived from Input):**
-    1.  **Feedback Score Reliability:** Address the non-null, perfect completion rate of `feedback_score`, requiring clarification on whether it is customer-provided or an internal metric.
-    2.  **User-to-Firm Mapping Ambiguity:** Highlight the lack of a primary `firm_id` in the `users` source table, necessitating a clear, documented assumption for calculating `provisioned_users`.
-    3.  **Low Engagement Business Risk:** Document the finding that **~69%** of users are in the **Low + Inactive** tiers, flagging this as a major business health concern ("shelfware" risk).
+    1.  **Feedback Score Reliability:** The non-null(none columns missing), perfect completion rate of `feedback_score`, requiring clarification on whether it is customer-provided or an internal metric.
+    2.  **User-to-Firm Mapping Ambiguity:** Lack of a primary `firm_id` in the `users` source table, necessitating a clear, documented assumption for calculating `provisioned_users`.
+    3.  **Low Engagement Business Risk:** **~69%** of users are in the **Low + Inactive** tiers, flagging this as a major business health concern ("shelfware" risk).
 
 ---
 
