@@ -80,5 +80,5 @@ The following questions must be answered using the modeled data, with justificat
 
 A `README.md` file must be included, providing clarity on the modeling approach and assumptions.
 
-1.  **Assumptions:** Clearly state the definition used for **Power User** and the assumption used for the **User-to-Firm Mapping** (`provisioned_users`).
-2.  **Model Interpretation:** Provide a brief explanation of the goal and key metrics (e.g., grain) for all three final models.
+1.  **Assumptions:** Clearly stated the definition used for **Power User** and the assumption used for the **User-to-Firm Mapping** (`provisioned_users`).
+2.  **Model Interpretation:** Provided a brief explanation of the goal and key metrics (e.g., grain) for all three final models.
